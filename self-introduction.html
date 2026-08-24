@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自己紹介-山森稚奈</title>
+</head>
+<body>
+<h1>自己紹介</h1>
+<h2>プロフィール</h2>
+    <p>名前　山森稚奈</p>
+    <p>年齢　34歳</p>
+    <p>出身地　京都府</p>
+    <p>趣味　音楽鑑賞、編み物</p>
+<h2>好きなもの</h2>
+<ul>
+    <li>チョコ系のスイーツ</li>
+    <li>柑橘系の飲み物</li>
+    <li>卵料理</li>
+</ul>
+<h2>今年の目標</h2>
+<ol>
+    <li>大きな病気や怪我無く過ごす</li>
+    <li>プログラミング講義を無事に終えること</li>
+    <li>簿記3級に合格すること</li>
+</ol>
+<h2>リンク</h2>
+    <a href="https://github.com/wakana-yamamori" target="_blank">私のGitHub</a>
+<h2>好きな風景</h2>
+    <img src="landscape.jpg" alt="好きな風景" width="400">
+<h2>お問い合わせ</h2>
+<form action="/submit" method="POST">
+    <p><label for="name">お名前:</label>
+    <input type="text" required></p>
+    <p><label>お問い合わせ種別:</label>
+    <select>
+      <option>---選択してください---</option>
+      <option>一般的なお問い合わせ</option>
+      <option>ご意見・ご要望</option>
+    </select></p>
+    <p><label>お問い合わせ内容:</label>
+    <textarea name="message" rows="5" required></textarea></p>
+    <p><button type="submit">送信する</button></p>
+</form>
+</body>
+</html>
